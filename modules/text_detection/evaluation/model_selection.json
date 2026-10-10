@@ -1,0 +1,11 @@
+{
+    "evaluation_type": "external_development_screening",
+    "thresholds": {
+        "max_human_false_positive_rate": 0.1,
+        "min_accuracy": 0.7,
+        "min_precision_ai": 0.7
+    },
+    "selected_model": null,
+    "status": "not_ready",
+    "reason": "No model passed the provisional screening criteria. More evaluation and improvement are required."
+}

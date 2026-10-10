@@ -1,0 +1,50 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# IDE and system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training data and generated outputs
+data/raw/
+data/processed/
+datasets/
+outputs/
+runs/
+checkpoints/
+logs/
+*.log
+
+# Large model artifacts
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# Hugging Face cache
+.cache/

@@ -1,0 +1,15 @@
+{
+    "benchmark_samples": 200,
+    "train_samples": 2000,
+    "validation_samples": 400,
+    "normalized_text_overlap_train": 0,
+    "normalized_text_overlap_validation": 0,
+    "question_id_overlap_train": 0,
+    "question_id_overlap_validation": 0,
+    "limitations": [
+        "Benchmark and training data originate from HC3.",
+        "V1 training overlap has not been independently verified.",
+        "Near-duplicate and paraphrase overlap are not tested.",
+        "External domain generalization remains unverified."
+    ]
+}
